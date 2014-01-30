@@ -1,0 +1,2 @@
+include ':android-advanced-fragments'
+include ':viewpagerindicator-2.4.1'

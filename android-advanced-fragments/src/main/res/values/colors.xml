@@ -1,0 +1,16 @@
+<resources>
+
+    <color name="indicator_fill_color">#555</color>
+    <color name="indicator_stroke_color">#bbb</color>
+    <color name="indicator_page_color">#eee</color>
+
+    <color name="fgt_first_bg">#F24B4B</color>
+    <color name="fgt_second_bg">#59D952</color>
+    <color name="fgt_third_bg">#7890FA</color>
+    <color name="fgt_text_color">#fff</color>
+    <color name="fgt_text_2">#000</color>
+    <color name="fgt_shadow_color">#000</color>
+    <color name="details_divider">#999</color>
+
+
+</resources>

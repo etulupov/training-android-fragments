@@ -1,0 +1,9 @@
+<resources>
+
+
+    <dimen name="indicator_padding">10dp</dimen>
+    <dimen name="indicator_radius">5dp</dimen>
+    <dimen name="fgt_text_size">35dp</dimen>
+    <integer name="fgt_shadow_size">5</integer>
+
+</resources>

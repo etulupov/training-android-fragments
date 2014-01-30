@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fgt_first_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shadowColor="@color/fgt_shadow_color"
+        android:shadowRadius="@integer/fgt_shadow_size"
+        android:text="@string/fgt_first_text"
+        android:textColor="@color/fgt_text_color"
+        android:textSize="@dimen/fgt_text_size" />
+
+</FrameLayout>
