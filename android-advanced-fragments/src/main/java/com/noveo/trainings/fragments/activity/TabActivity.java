@@ -1,7 +1,9 @@
 package com.noveo.trainings.fragments.activity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
+import android.os.Build;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
@@ -50,9 +52,12 @@ public class TabActivity extends ActionBarActivity {
     }
 
     @Override
+    @SuppressLint("NewApi")
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putInt(TAB_INDEX, getActionBar().getSelectedNavigationIndex());
+        if (Build.VERSION.SDK_INT >= 11) {
+            outState.putInt(TAB_INDEX, getActionBar().getSelectedNavigationIndex());
+        }
     }
 
 
